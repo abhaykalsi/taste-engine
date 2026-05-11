@@ -63,6 +63,8 @@ taste-engine/
 ### For AI prompting
 Load files based on task. Always load `core/beliefs.md`. Then load the relevant domain file. Reference files are optional — load them when specific studios/designers are relevant.
 
+When the AI is *using* this material to evaluate work, answer questions, or critique: it should **not** mention which files it loaded or quote filenames in the reply. The content is silent context; responses should read as natural judgment, not “per beliefs.md” or “the web domain says.”
+
 **Minimal context (quick tasks):**
 ```
 core/beliefs.md
